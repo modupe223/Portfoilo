@@ -1,0 +1,23 @@
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.box:hover{
+    background-color: grey;
+    cursor: pointer;
+}
